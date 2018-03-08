@@ -39,14 +39,17 @@ long _homeButtonType = 1;
 
 // Remove carrier text
 %hook UIStatusBarServiceItemView
+/* I guess it's still nice to have carrier text ^_^ 
+   - Lone Wolf
 - (id)_serviceContentsImage {
     return nil;
 }
+*/
 - (CGFloat)extraRightPadding {
-    return 0.0f;
+    return 1.0f;
 }
 - (CGFloat)standardPadding {
-    return 2.0f;
+    return 0.0f;
 }
 %end
 
