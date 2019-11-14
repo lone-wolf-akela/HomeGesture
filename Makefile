@@ -1,7 +1,7 @@
 include $(THEOS)/makefiles/common.mk
 
-TWEAK_NAME = HomeGesture
-HomeGesture_FILES = Tweak.xm
+TWEAK_NAME = HomeGesture_Wolf
+HomeGesture_Wolf_FILES = Tweak.xm
 
 include $(THEOS_MAKE_PATH)/tweak.mk
 
